@@ -18,9 +18,9 @@ function Discover() {
           {/* Card 1 */}
           <div className="border rounded-lg shadow-md p-6 text-center">
             <img
-              src="https://via.placeholder.com/100" // Replace with the actual image path
+              src="https://stevethedoc.wordpress.com/wp-content/uploads/2020/02/1942483.jpg" // Replace with the actual image path
               alt="Unparalleled Quality"
-              className="mx-auto mb-4"
+              className="flex w-20 mb-4 justify-center items-center"
             />
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
               Unparalleled Quality
@@ -36,9 +36,9 @@ function Discover() {
           {/* Card 2 */}
           <div className="border rounded-lg shadow-md p-6 text-center">
             <img
-              src="https://via.placeholder.com/100" // Replace with the actual image path
+              src="https://cdn.prod.website-files.com/6545c0fff4c18235e4edfc4f/66b02469c503ce0825b5fa09_test-tube-glasses.webp" // Replace with the actual image path
               alt="Commitment to Transparency"
-              className="mx-auto mb-4"
+              className="w-20 mb-4"
             />
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
               Commitment to Transparency
@@ -54,9 +54,9 @@ function Discover() {
           {/* Card 3 */}
           <div className="border rounded-lg shadow-md p-6 text-center">
             <img
-              src="https://via.placeholder.com/100" // Replace with the actual image path
+              src="https://www.wbcsd.org/wp-content/uploads/2023/08/Chemicals-Group_Action-jpeg.webp" // Replace with the actual image path
               alt="Adaptability and Agility"
-              className="mx-auto mb-4"
+              className="w-20 mb-4"
             />
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
               Adaptability and Agility
@@ -71,7 +71,7 @@ function Discover() {
         </div>
 
         <a
-          href="#"
+          href="tel:+919666884325"
           className="text-blue-500 hover:text-blue-700 font-semibold mt-8 inline-block"
         >
           Contact Us
@@ -79,65 +79,7 @@ function Discover() {
       </section>
 
       {/* Section: Reach Out Today */}
-      <section className="py-16 px-4 md:px-16 bg-gray-50 text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">
-          Reach Out Today
-        </h1>
-        <p className="text-gray-500 mb-8 max-w-2xl mx-auto">
-          We welcome the opportunity to discuss your chemical requirements and
-          provide personalized solutions to support your business objectives.
-        </p>
-
-        {/* Cards Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1 */}
-          <div className="border rounded-lg shadow-md p-6 text-center">
-            <img
-              src="https://via.placeholder.com/100" // Replace with actual image path
-              alt="Experts Are Ready"
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              Our Experts Are Ready
-            </h3>
-            <p className="text-gray-500">
-              Our knowledgeable team is here to assist you with your
-              chemical-related needs.
-            </p>
-          </div>
-
-          {/* Card 2 */}
-          <div className="border rounded-lg shadow-md p-6 text-center">
-            <img
-              src="https://via.placeholder.com/100" // Replace with actual image path
-              alt="Latest Updates"
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              Follow Our Latest Updates
-            </h3>
-            <p className="text-gray-500">
-              Stay up-to-date with the latest industry news and connect with us.
-            </p>
-          </div>
-
-          {/* Card 3 */}
-          <div className="border rounded-lg shadow-md p-6 text-center">
-            <img
-              src="https://via.placeholder.com/100" // Replace with actual image path
-              alt="Comprehensive Support"
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              Comprehensive Support
-            </h3>
-            <p className="text-gray-500">
-              Our dedicated customer service team is committed to providing
-              solutions tailored to you.
-            </p>
-          </div>
-        </div>
-      </section>
+    
     </div>
   );
 }

@@ -101,9 +101,11 @@ function Strive() {
               Our knowledgeable team is dedicated to providing personalized
               solutions.
             </p>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded transition">
-              Speak with Us
-            </button>
+            <a href="tel:+919666884325">
+              <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded transition">
+                Speak with Us
+              </button>
+            </a>
           </div>
 
           {/* Image */}

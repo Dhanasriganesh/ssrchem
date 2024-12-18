@@ -21,9 +21,11 @@ function Header() {
 
         {/* Actions */}
         <div className="flex items-center space-x-4">
-          <FaPhoneAlt className="text-blue-600" />
+          <a href="tel:+919666884325">
+            <FaPhoneAlt className="text-blue-600" />
+          </a>
 
-          <a href="tel:+919000278794">
+          <a href="tel:+919666884325">
             <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition">
               Contact Us
             </button>
