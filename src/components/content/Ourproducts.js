@@ -13,7 +13,7 @@ function Ourproducts() {
             <FaFlask className="text-blue-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2">Chemical Purity</h3>
             <p className="mb-4">Our chemicals are formulated with the highest purity for optimal results.</p>
-            <button className="text-orange-500 hover:text-orange-600 font-bold">Learn More</button>
+            {/* <button className="text-orange-500 hover:text-orange-600 font-bold">Learn More</button> */}
           </div>
 
           {/* Product Card 2 */}
@@ -21,7 +21,7 @@ function Ourproducts() {
             <FaCheckCircle className="text-yellow-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2">Quality Assurance</h3>
             <p className="mb-4">Guaranteed quality through rigorous testing and standards.</p>
-            <button className="text-orange-500 hover:text-orange-600 font-bold">Learn More</button>
+            {/* <button className="text-orange-500 hover:text-orange-600 font-bold">Learn More</button> */}
           </div>
 
           {/* Product Card 3 */}
@@ -29,7 +29,7 @@ function Ourproducts() {
             <FaFlask className="text-green-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2">Product Versatility</h3>
             <p className="mb-4">Trusted by industries and labs for versatile applications.</p>
-            <button className="text-orange-500 hover:text-orange-600 font-bold">Learn More</button>
+            {/* <button className="text-orange-500 hover:text-orange-600 font-bold">Learn More</button> */}
           </div>
         </div>
       </div>

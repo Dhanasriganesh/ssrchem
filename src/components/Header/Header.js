@@ -24,22 +24,31 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  // Function to handle link click
+  const handleLinkClick = () => {
+    setMenuOpen(false); // Close menu on link click
+  };
+
   return (
     <>
       <div className="mb-14">
         <header
-          className={`bg-white shadow-md  fixed top-0 w-full z-50 transition-transform duration-300 ${
+          className={`bg-white shadow-md fixed top-0 w-full z-50 transition-transform duration-300 ${
             isVisible ? "translate-y-0" : "-translate-y-full"
           }`}
         >
           <div className="container mx-auto flex justify-between items-center px-4">
             {/* Logo */}
-            <div className="flex text-2xl font-bold text-gray-800">
+            <div className="flex text-2xl font-bold text-gray-800 items-center">
               <div>
-                <Link to="/"><img src={logo} width={100} height={100} alt="Logo" /></Link>
+                <Link to="/">
+                  <img src={logo} width={100} height={100} alt="Logo" />
+                </Link>
               </div>
-              <div className="mt-8">
-                <Link to="/"><span className="text-red-600">SSR</span>Chem</Link>
+              <div className="">
+                <Link to="/">
+                  <span className="text-red-600">SSR</span>Chem
+                </Link>
               </div>
             </div>
             {/* Navigation */}
@@ -50,25 +59,29 @@ function Header() {
             >
               <Link
                 to="/"
-                className="block md:inline-block px-4 py-2 hover:text-blue-600 transition"
+                onClick={handleLinkClick} // Close menu on link click
+                className="block md:inline-block px-4 py-2 text-center hover:text-blue-600 transition"
               >
                 Home
               </Link>
               <Link
                 to="/about"
-                className="block md:inline-block px-4 py-2 hover:text-blue-600 transition"
+                onClick={handleLinkClick} // Close menu on link click
+                className="block md:inline-block px-4 py-2 text-center hover:text-blue-600 transition"
               >
                 About
               </Link>
               <Link
                 to="/products"
-                className="block md:inline-block px-4 py-2 hover:text-blue-600 transition"
+                onClick={handleLinkClick} // Close menu on link click
+                className="block md:inline-block px-4 py-2 text-center hover:text-blue-600 transition"
               >
                 Products
               </Link>
               <Link
                 to="/contact"
-                className="block md:inline-block px-4 py-2 hover:text-blue-600 transition"
+                onClick={handleLinkClick} // Close menu on link click
+                className="block md:inline-block px-4 py-2 text-center hover:text-blue-600 transition"
               >
                 Contact
               </Link>
@@ -96,8 +109,6 @@ function Header() {
           </div>
         </header>
       </div>
-
-      {/* Main Content Wrapper */}
     </>
   );
 }

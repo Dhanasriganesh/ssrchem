@@ -4,7 +4,7 @@ import { FaEnvelope, FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 function Contact() {
   const phoneNumber = "+919666884325";
   const whatsappLink = `https://wa.me/919666884325`;
-  const emailAddress = "example@email.com";
+  const emailAddress = "ssrchem5@gmail.com";
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-600 to-slate-950 text-white">
