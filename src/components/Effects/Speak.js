@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Speak = () => {
   return (
     <StyledWrapper>
-      <a className="schedule-button" href="https://www.linkedin.com/in/nkhlrjrs/">
+      <a className="schedule-button">
         Schedule a Call
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="arrow">
           <path fill="none" d="M0 0h24v24H0z" />
