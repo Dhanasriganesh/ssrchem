@@ -7,7 +7,7 @@ function About() {
         {/* Title and Subtitle */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-            About <span className="text-red-600">SSR</span>Chem
+            About <span className="text-blue-500">SSR</span>Chem
           </h2>
           <p className="text-gray-600 mt-4 text-lg md:text-xl">
             We are committed to providing cutting-edge chemical solutions that empower businesses worldwide.
@@ -41,12 +41,12 @@ function About() {
               <li>Commitment to safety and transparency</li>
               <li>Customer-centric, innovative solutions</li>
             </ul>
-            <a
+            {/* <a
               href="#contact"
               className="bg-red-600 text-white px-6 py-3 rounded hover:bg-red-700 transition"
             >
               Learn More
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaShoppingCart, FaPhoneAlt, FaBars, FaTimes } from "react-icons/fa"; // Added FaBars and FaTimes
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
-
+import Call from "../Effects/Call";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false); // State for hamburger menu
   const [isVisible, setIsVisible] = useState(true); // State for header visibility
@@ -47,7 +47,7 @@ function Header() {
               </div>
               <div className="">
                 <Link to="/">
-                  <span className="text-red-600">SSR</span>Chem
+                  <span className="text-blue-500">SSR</span>Chem
                 </Link>
               </div>
             </div>
@@ -100,10 +100,8 @@ function Header() {
               <a href="tel:+919666884325">
                 <FaPhoneAlt className="text-blue-600" />
               </a>
-              <a href="tel:+919666884325">
-                <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition">
-                  Contact Us
-                </button>
+              <a href="/contact">
+                <Call/>
               </a>
             </div>
           </div>

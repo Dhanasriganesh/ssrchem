@@ -1,5 +1,8 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import Button from "../Effects/Button";
+import Shop from "../Effects/Shop";
+import Speak from "../Effects/Speak";
 function Strive() {
   return (
     <div>
@@ -26,10 +29,10 @@ function Strive() {
             Our mission is to empower our customers by providing cutting-edge
             chemical solutions that drive their success.
           </p>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded transition">
-            Explore Our Offerings
-          </button>
-        </div>
+          <Link to="/products">
+            <Shop/>
+          </Link>
+        </div>""
       </section>
 
       {/* Features Section */}
@@ -48,9 +51,9 @@ function Strive() {
             <p className="text-gray-600 mt-2 mb-4">
               Sustainability is at the forefront of our operations.
             </p>
-            <span className="text-orange-500 font-semibold cursor-pointer">
+            {/* <span className="text-orange-500 font-semibold cursor-pointer">
               Responsible Sourcing
-            </span>
+            </span> */}
           </div>
 
           {/* Feature 2 */}
@@ -82,9 +85,9 @@ function Strive() {
               We stay at the forefront of technological advancements in the
               industry.
             </p>
-            <span className="text-orange-500 font-semibold cursor-pointer">
+            {/* <span className="text-orange-500 font-semibold cursor-pointer">
               Explore Our Capabilities
-            </span>
+            </span> */}
           </div>
         </div>
       </section>
@@ -102,9 +105,7 @@ function Strive() {
               solutions.
             </p>
             <a href="tel:+919666884325">
-              <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded transition">
-                Speak with Us
-              </button>
+              <Speak/>
             </a>
           </div>
 

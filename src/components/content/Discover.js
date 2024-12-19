@@ -16,57 +16,57 @@ function Discover() {
         {/* Cards Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="border rounded-lg shadow-md p-6 text-center">
-            <img
-              src="https://stevethedoc.wordpress.com/wp-content/uploads/2020/02/1942483.jpg" // Replace with the actual image path
-              alt="Unparalleled Quality"
-              className="flex w-20 mb-4 justify-center items-center"
-            />
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              Unparalleled Quality
-            </h3>
-            <p className="text-gray-500 mb-4">
-              Quality is the foundation of our operations.
-            </p>
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">
-              Learn More
-            </button>
+          <div className="relative group text-center border rounded-lg shadow-md p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-teal-300 to-blue-500 opacity-0 group-hover:opacity-50 blur-lg transition duration-500"></div>
+            <div className="relative">
+              <img
+                src="https://stevethedoc.wordpress.com/wp-content/uploads/2020/02/1942483.jpg" // Replace with the actual image path
+                alt="Unparalleled Quality"
+                className="flex w-20 mb-4 justify-center items-center mx-auto group-hover:scale-110 transition duration-300"
+              />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-blue-500 transition duration-300">
+                Unparalleled Quality
+              </h3>
+              <p className="text-gray-500 mb-4 group-hover:text-gray-800 transition duration-300">
+                Quality is the foundation of our operations.
+              </p>
+            </div>
           </div>
 
           {/* Card 2 */}
-          <div className="border rounded-lg shadow-md p-6 text-center">
-            <img
-              src="https://cdn.prod.website-files.com/6545c0fff4c18235e4edfc4f/66b02469c503ce0825b5fa09_test-tube-glasses.webp" // Replace with the actual image path
-              alt="Commitment to Transparency"
-              className="w-20 mb-4"
-            />
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              Commitment to Transparency
-            </h3>
-            <p className="text-gray-500 mb-4">
-              We are committed to maintaining a transparent and reliable process.
-            </p>
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">
-              Learn More
-            </button>
+          <div className="relative group text-center border rounded-lg shadow-md p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 via-orange-300 to-yellow-500 opacity-0 group-hover:opacity-50 blur-lg transition duration-500"></div>
+            <div className="relative">
+              <img
+                src="https://cdn.prod.website-files.com/6545c0fff4c18235e4edfc4f/66b02469c503ce0825b5fa09_test-tube-glasses.webp" // Replace with the actual image path
+                alt="Commitment to Transparency"
+                className="w-20 mb-4 mx-auto group-hover:scale-110 transition duration-300"
+              />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-yellow-500 transition duration-300">
+                Commitment to Transparency
+              </h3>
+              <p className="text-gray-500 mb-4 group-hover:text-gray-800 transition duration-300">
+                We are committed to maintaining a transparent and reliable process.
+              </p>
+            </div>
           </div>
 
           {/* Card 3 */}
-          <div className="border rounded-lg shadow-md p-6 text-center">
-            <img
-              src="https://www.wbcsd.org/wp-content/uploads/2023/08/Chemicals-Group_Action-jpeg.webp" // Replace with the actual image path
-              alt="Adaptability and Agility"
-              className="w-20 mb-4"
-            />
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              Adaptability and Agility
-            </h3>
-            <p className="text-gray-500 mb-4">
-              In the ever-evolving chemical industry, we customize solutions.
-            </p>
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">
-              Learn More
-            </button>
+          <div className="relative group text-center border rounded-lg shadow-md p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-green-500 via-blue-300 to-green-500 opacity-0 group-hover:opacity-50 blur-lg transition duration-500"></div>
+            <div className="relative">
+              <img
+                src="https://www.wbcsd.org/wp-content/uploads/2023/08/Chemicals-Group_Action-jpeg.webp" // Replace with the actual image path
+                alt="Adaptability and Agility"
+                className="w-20 mb-4 mx-auto group-hover:scale-110 transition duration-300"
+              />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-green-500 transition duration-300">
+                Adaptability and Agility
+              </h3>
+              <p className="text-gray-500 mb-4 group-hover:text-gray-800 transition duration-300">
+                In the ever-evolving chemical industry, we customize solutions.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -77,9 +77,6 @@ function Discover() {
           Contact Us
         </a>
       </section>
-
-      {/* Section: Reach Out Today */}
-    
     </div>
   );
 }
