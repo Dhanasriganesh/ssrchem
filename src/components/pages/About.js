@@ -1,6 +1,9 @@
 import React from "react";
-
+import { FiPhone } from "react-icons/fi";
 function About() {
+  const handleCall = () => {
+    window.location.href = "tel:+919666884325"; // Replace with your desired phone number
+  };
   return (
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
@@ -49,6 +52,13 @@ function About() {
             </a> */}
           </div>
         </div>
+          <div
+                className="fixed bottom-4 right-4 bg-yellow-500 text-white p-4 rounded-full shadow-lg cursor-pointer hover:bg-yellow-600 transition-all"
+                onClick={handleCall}
+                title="Call Us"
+              >
+                <FiPhone className="w-6 h-6" /> {/* React Icon for Phone */}
+              </div>
       </div>
     </section>
   );

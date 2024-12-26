@@ -1,22 +1,25 @@
-import React, { Fragment } from 'react'
-import { BrowserRouter as Router } from "react-router-dom"
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
-import Routers from '../routers/Routers'
-import ScrollToTop from '../ScrollToTop'
+import React, { Fragment } from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import Routers from '../routers/Routers';
+import ScrollToTop from '../ScrollToTop';
+
 function Layout() {
     return (
         <Router>
-<ScrollToTop/>
+            <ScrollToTop />
             <Fragment>
                 <Header />
                 <div>
                     <Routers />
                 </div>
-                <Footer/>
+                <Footer />
+                {/* Fixed call button */}
+             
             </Fragment>
         </Router>
-    )
+    );
 }
 
-export default Layout
+export default Layout;

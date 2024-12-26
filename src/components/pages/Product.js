@@ -19,6 +19,7 @@ import dmf from "../images/dmf.jpg";
 import chloroform from "../images/chloroform.jpg";
 import formaldehyde from "../images/formaldehyde.jpg";
 import Cont from "../Effects/Cont";
+import { FiPhone } from "react-icons/fi";
 const products = [
   { name: "PET ETHER", image: pet_ether, description: "High-purity PET Ether used in pharmaceutical and industrial applications." },
   { name: "ETHYL ACETATE", image: ethyl_acetate, description: "A versatile solvent for printing, packaging, and coatings." },
@@ -42,6 +43,9 @@ const products = [
 
 
 function Product() {
+  const handleCall = () => {
+    window.location.href = "tel:+919666884325"; // Replace with your desired phone number
+  };
   return (
     <div className="bg-gray-100 min-h-screen py-12 px-6">
       {/* Company Information */}
@@ -85,6 +89,13 @@ function Product() {
           We also provide other chemicals as per your requirements at the best price. It would be our pleasure to work with your company and deliver quality products.
         </p>
       </div>
+        <div
+                            className="fixed bottom-4 right-4 bg-yellow-500 text-white p-4 rounded-full shadow-lg cursor-pointer hover:bg-yellow-600 transition-all"
+                            onClick={handleCall}
+                            title="Call Us"
+                          >
+                            <FiPhone className="w-6 h-6" /> {/* React Icon for Phone */}
+                          </div>
     </div>
   );
 }

@@ -3,17 +3,22 @@ import { Link } from "react-router-dom";
 import Button from "../Effects/Button";
 import Shop from "../Effects/Shop";
 import Speak from "../Effects/Speak";
+import greenchem from  "../images/greenchem.jpg.png"
+import drums from "../images/drums.jpg"
+import toxic from "../images/toxic.jpg"
+import factory from "../images/factory.jpg"
+import doctor from "../images/doctor.jpg"
 function Strive() {
   return (
-    <div>
+    <div className="bg-gray-100">
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row items-center justify-between bg-white py-16 px-4 md:px-16">
         {/* Image */}
         <div className="md:w-1/2">
           <img
-            src="https://www.proaaci.com/wp-content/uploads/2015/12/chemistry.jpeg" // Replace with the actual image path
+            src={greenchem} // Replace with the actual image path
             alt="Chemical Lab"
-            className="rounded-lg shadow-md"
+            className=""
           />
         </div>
 
@@ -41,7 +46,7 @@ function Strive() {
           {/* Feature 1 */}
           <div className="text-center">
             <img
-              src="https://s7d1.scene7.com/is/image/CENODS/09807-leadcon-barrel?$responsive$&wid=700&qlt=90,0&resMode=sharp2" // Replace with the correct image
+              src={drums}// Replace with the correct image
               alt="Sustainable Practices"
               className="mx-auto mb-4"
             />
@@ -59,7 +64,7 @@ function Strive() {
           {/* Feature 2 */}
           <div className="text-center">
             <img
-              src="https://blog.unibloctech.com/hubfs/uni_std_blog-09-chemical-drum-pumps-and-the-dangers-involved.jpg" // Replace with the correct image
+              src={toxic}
               alt="Commitment to Safety"
               className="mx-auto mb-4"
             />
@@ -74,7 +79,7 @@ function Strive() {
           {/* Feature 3 */}
           <div className="text-center">
             <img
-              src="https://ushazmatrentals.com/wp-content/uploads/2024/05/industrial-warehouse-chemical-storage-drums-1024x585.jpg" // Replace with the correct image
+              src={factory}
               alt="Cutting-Edge"
               className="mx-auto mb-4"
             />
@@ -112,7 +117,7 @@ function Strive() {
           {/* Image */}
           <div className="md:w-1/2 mt-8 md:mt-0 md:pl-10">
             <img
-              src="https://www.snexplores.org/wp-content/uploads/2020/09/1030_SS_Chemical.jpg" // Replace with the actual image
+              src={doctor}
               alt="Glass Beakers"
               className="rounded-lg shadow-lg"
             />
